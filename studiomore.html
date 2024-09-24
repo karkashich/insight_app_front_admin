@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="style/studiomore.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id='main' class='main'>
+        <div id='rectangle352' class='rectangle352'>
+            <div class="coluns">
+                <div class="leftcolun">
+                    <div class="studioname">
+                        ОАО ИнфоОблСервис
+                    </div>
+
+                    <div class="studioadress">
+                        <div style="color: #999999; font-size: 16px;">Адресс:</div>
+                        <div class="infotxt">г.Архангельск, проезд Бухарестская, 77</div>
+                        <div style="color: #999999; font-size: 16px; margin-top:10px;">ФИО Руководителя:</div>
+                        <div class="infotxt">Иванов Иван Иванович</div>
+                        <div style="color: #999999; font-size: 16px; margin-top:10px; display:block;">Email:
+                            <a style="margin-left: 20px; color:#fff;">
+                                example@ya.ru
+                            </a>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <div class="studiodata">
+                        <div style="color: #999999; font-size: 16px;">Наименование организации:</div>
+                        <div class="infotxt">ОАО ИнфоОблСервис</div>
+                        <div style="color: #999999; font-size: 16px; margin-top:10px;">ИНН:
+                            <a style="margin-left: 20px; color:#fff;">
+                                123456789
+                            </a>
+                        </div>
+                        
+                        <div style="color: #999999; font-size: 16px; margin-top:10px; display:block;">ОГРН/ОГРНИП * :
+                            <a style="margin-left: 20px; color:#fff;">
+                                31686170013322
+                            </a>
+                        </div>
+                        <div style="color: #999999; font-size: 16px;  margin-top:10px;">ЮР адресс</div>
+                        <div class="infotxt">г.Архангельск, проезд Бухарестская, 77</div>
+                    </div>
+
+                    <button class="apply" onclick="showWarningPanel()" >Предупреждение</button>
+                </div>
+
+                <div class="rightcolun">
+                    <img class="studiophoto" src="images/35.jpg">
+
+
+                    <div class="studiobankdata">
+                        <div style="color: #999999; font-size: 16px;">Название банка:</div>
+                        <div class="infotxt">ООО ИМИДЖБАНК</div>
+                        <div style="color: #999999; font-size: 16px; margin-top:5px;">БИК: 
+                            <a style="margin-left: 20px; color:#fff;">
+                                123456789
+                            </a>
+                        </div>
+                        <div style="color: #999999; font-size: 16px;  margin-top:5px;">Расчетный счет:</div>
+                        <div class="infotxt">12345678912345678912</div>
+                    </div>
+                    <button class="lessonsbtn">Занятия от студии</button>
+                    <button class="deny">Заблокировать</button>
+                </div>
+                </div>
+                <div class="warning_panel" id="warning_panel">
+
+                    <textarea class="warning_text"  value="Причина предупреждения"></textarea>
+                    <input type="submit" class="sendwarning">
+                </div>
+                
+            
+               
+            
+        </div>
+
+
+
+
+
+
+
+
+        <div id='rectangle386' class='rectangle386'>
+            <div class="leftmenu">Студии</div>
+            <div class="leftmenu">Новые студии</div>
+            <div class="leftmenu">Пользователи</div>
+            <div class="leftmenu">Новые мероприятия</div>
+            <div class="leftmenu">Мероприятия</div>
+            <!-- <div class="leftmenu">Статьи</div> -->
+            <!-- <div class="leftmenu">Добавить сотрудника</div> -->
+
+        </div>
+
+        <div class="header">
+            <div id='frame1' class='frame1'>
+                <div id='insight' class='insight'>
+                Insight
+                </div>
+
+                <div class="profile">
+                    
+                    <img id='userphoto' class='userphoto'>
+                    
+                    <img id='arrow60' class='arrow60' src='images/Arrow60.svg'/>
+
+
+                    <div class="dropdown">
+                        <button class="dropbtn">  
+                            <img id='userphoto' class='userphoto'>
+                            <img id='arrow60' class='arrow60' src='images/Arrow60.svg'/>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Выйти из аккаунта</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    
+
+        <script>
+            function showWarningPanel() {
+                const warningPanel = document.getElementById('warning_panel');
+                warningPanel.style.display = 'block'; // Показываем панель предупреждения
+            }
+        </script>
+
+</body>

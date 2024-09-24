@@ -1,0 +1,291 @@
+html{
+    background-color:#141414;
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+@media(min-width: 1440px){
+  html{
+    scale: 1.15;
+  }
+}
+@media (min-width: 1920px){
+  html{
+    scale: 1.35;
+  }
+}
+
+.leftmenu{
+    
+    color: #ffffff;
+    font-family:Montserrat;
+    padding:  10px 20px 10px 20px;
+}
+.leftmenu:hover{
+    background-color: #222222;
+    border-radius: 20px;
+
+}
+.userphoto
+{
+background-color:#ffffff;
+height:50px;
+width:50px;
+top:10px;
+left:1047px;
+position:absolute;
+border-radius:50%;
+}
+.arrow60
+{
+width:21px;
+left:1117px;
+top:30px;
+position:absolute;
+}
+
+.dropbtn {
+
+    background-color: #ffffff00;
+    color: none;
+    margin-top:0px;
+    left:1047px;
+    height: 80px;
+    width: 100px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top:10px;
+    left:1047px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222222;
+    min-width: 160px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+    width: 90px;
+    margin-left: -8px;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #7b0000;
+    color: #ffffff;
+    font-weight: 500;
+}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e4100;}
+
+.main
+{
+background-color:#141414;
+height:950px;
+width:1280px;
+padding:0px;
+position:absolute;
+}
+
+.rectangle352{
+  background-color:#222222;
+  font-family: Montserrat;
+  width:800px;
+  border-radius:20px;
+  top:90px;
+  left:220px;
+  position:absolute;
+  
+  padding: 20px;
+}
+/*тут меняется весь контент на странице*/
+.coluns{
+  display: flex;
+}
+
+.studioname{
+  color: #fff;
+  font-size: 29px;
+  height: 29px;
+}
+.studioadress{
+  margin-top: 20px;
+  background-color: #333333;
+  height: 126px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.studiodata{
+  margin-top: 20px;
+  background-color: #333333;
+  height: 156px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.infotxt{
+  color: #fff;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.rightcolun{
+  margin-left: 20px;
+}
+.studiophoto{
+  height: 185px;
+  width: 390px;
+  border-radius: 10px;
+  margin: 0;
+  
+}
+
+.lessonsbtn{
+  margin-top: 20px;
+  background-color: #333;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 390px;
+  color: #fff;
+  font-size: 22px;
+  font-family: Montserrat;
+}
+.lessonsbtn:active{background-color: #999999;}
+
+.studiobankdata{
+  margin-top: 16px;
+  background-color: #333333;
+  height: 116px;
+  
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+/* тут кнопочки*/
+.apply{
+  margin-top: 20px;
+  background-color: #d1b202;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 390px;
+  color: #000000;
+  font-size: 22px;
+  font-family: Montserrat;
+}
+.apply:active{background-color: #ddd06c;}
+
+.warning_panel{
+  
+    display: none; 
+
+}
+.warning_text{
+    background-color: #333;
+    width: 799px    ;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: Montserrat;
+    color: #ffffff;
+    
+}
+
+.sendwarning{
+  
+  margin-top: 20px;
+  background-color: #333;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 799px;
+  color: #d1d1d1;
+  font-size: 22px;
+  font-family: Montserrat;
+}
+.sendwarning:active{background-color: #999999;}
+
+
+.deny{
+  margin-top: 20px;
+  background-color: #712121;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 390px;
+  color: #fff;
+  font-size: 22px;
+  font-family: Montserrat;
+}
+.deny:active{background-color: #b63737;}
+
+
+
+.header{
+  position: fixed;
+  z-index: 999;
+  margin-left: 39px;
+  top: 0px;
+}
+.rectangle386
+{
+
+height:347px;
+width:160px;
+border-radius:20px;
+top:90px;
+left:40px;
+position:absolute;
+}
+.frame1
+{
+
+background-color:#222222;
+height:70px;
+width:1201px;
+border-radius:0px 0px 20px 20px;
+padding:0px;
+left:39px;
+}
+.insight
+{
+color:#ffffff;
+text-align:center;
+vertical-align:text-top;
+font-size:40px;
+font-family:Aire Pro;
+line-height:auto;
+border-style:hidden;
+outline:none;
+top:5px;
+left:30px;
+position:absolute;
+width:102px;
+}
+
