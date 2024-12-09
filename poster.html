@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="style/poster.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id='main' class='main'>
+        
+        <div id='posterlist' class='posterlist'>
+            <div class="lineposter">
+                <div class="postercard">
+                    <img class="posterimg" src="images/headimg.jpg">
+                    <button class="edit">
+                        <img class="deleteimg" src="images/edit.svg">
+                    </button>
+                    <button class="delete"><img class="deleteimg" src="images/delete.svg"></button>
+                </div>
+                
+                <div class="postercard">
+                    <img class="posterimg" src="images/3.jpg">
+                    <button class="edit">
+                        <img class="deleteimg" src="images/edit.svg">
+                    </button>
+                    <button class="delete"><img class="deleteimg" src="images/delete.svg"></button>
+                </div>
+
+                <div class="postercard">
+                    <img class="posterimg" src="images/3.jpg">
+                    <button class="edit">
+                        <img class="deleteimg" src="images/edit.svg">
+                    </button>
+                    <button class="delete"><img class="deleteimg" src="images/delete.svg"></button>
+                </div>
+
+                <div class="postercard">
+                    <img class="posterimg" src="images/3.jpg">
+                    <button class="edit">
+                        <img class="deleteimg" src="images/edit.svg">
+                    </button>
+                    <button class="delete"><img class="deleteimg" src="images/delete.svg"></button>
+                </div>
+                <div class="postercard">
+                    <img class="posterimg" src="images/3.jpg">
+                    <button class="edit">
+                        <img class="deleteimg" src="images/edit.svg">
+                    </button>
+                    <button class="delete"><img class="deleteimg" src="images/delete.svg"></button>
+                </div>
+                <div class="postercard">
+                    <img class="posterimg" src="images/3.jpg">
+                    <button class="edit">
+                        <img class="deleteimg" src="images/edit.svg">
+                    </button>
+                    <button class="delete"><img class="deleteimg" src="images/delete.svg"></button>
+                </div>
+                
+            </div>
+
+            <button id='addposter' class='addposter' id="addposter">
+                Добавить постер   
+            </button>
+        </div>
+
+
+        <div id="addModal" class="addmodal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Добавить Постер</h2>
+                <p>Здесь можно добавить ваш постер.</p>
+                <!-- Ваши элементы формы или другие элементы -->
+            </div>
+        </div>
+        
+        
+        
+
+<!--  -->
+        <div id='rectangle386' class='rectangle386'>
+            <div class="leftmenu">Студии</div>
+            <div class="leftmenu">Афиша</div>
+            <div class="leftmenu">Новые студии</div>
+            <div class="leftmenu">Пользователи</div>
+            <div class="leftmenu">Новые мероприятия</div>
+            <div class="leftmenu">Мероприятия</div>
+            <!-- <div class="leftmenu">Добавить сотрудника</div> -->
+
+        </div>
+        <div id='frame1' class='frame1'>
+        <div id='insight' class='insight'>
+        Insight
+        </div>
+
+        <div class="profile">
+            
+            <img id='userphoto' class='userphoto'>
+            
+            <img id='arrow60' class='arrow60' src='images/Arrow60.svg'/>
+
+
+            <div class="dropdown">
+                <button class="dropbtn">  
+                    <img id='userphoto' class='userphoto'>
+                    <img id='arrow60' class='arrow60' src='images/Arrow60.svg'/>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Выйти из аккаунта</a>
+                </div>
+              </div>
+        </div>
+
+        </div>
+        
+        
+
+</body>
+<script>
+        // Получаем элементы модального окна и кнопки
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("addposter");
+    var span = document.getElementsByClassName("close")[0];
+
+    // Когда пользователь нажимает на кнопку, открывается модальное окно
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // Когда пользователь нажимает на "x", закрывается модальное окно
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Когда пользователь нажимает в любое место за пределами модального окна, оно закрывается
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+</script>
+</html>
+
+    
